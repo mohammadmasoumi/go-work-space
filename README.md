@@ -1,1 +1,1 @@
-# goworkspace
+# go-work-space

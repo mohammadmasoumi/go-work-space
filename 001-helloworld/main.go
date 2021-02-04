@@ -8,6 +8,7 @@ create go module
  - go mod tidy
  */
 
+// the entrypoint to your project
 func main() {
 	fmt.Printf("Hello world")
 }

@@ -15,7 +15,6 @@ control flow:
   (3) conditional
  */
 
-
 // the entrypoint to your project
 func main() {
 	fmt.Printf("Hello world")

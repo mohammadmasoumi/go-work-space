@@ -10,7 +10,7 @@ create go module
 
 /**
 control flow:
-  (1) sequence
+  (1) sequence - code runs sequentially! line by line
   (2) loop: iterative
   (3) conditional
 */

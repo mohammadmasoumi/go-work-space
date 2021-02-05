@@ -11,7 +11,7 @@ create go module
 /**
 control flow:
   (1) sequence
-  (2) loop: iterativea
+  (2) loop: iterative
   (3) conditional
 */
 
@@ -20,6 +20,8 @@ func main() {
 	fmt.Printf("Hello world")
 
 	foo()
+
+
 }
 
 

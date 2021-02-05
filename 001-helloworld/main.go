@@ -21,7 +21,8 @@ func main() {
 
 	foo()
 
-	fmt.Println("something more.")
+	// it takes a number of values
+	fmt.Println("something more.", 23 , true)
 
 	for i := 0; i < 100; i++ {
 		if i%2 == 0 {

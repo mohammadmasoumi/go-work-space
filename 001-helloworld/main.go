@@ -21,9 +21,13 @@ func main() {
 
 	foo()
 
+	fmt.Println("something more.")
+
+	for i := 0; i < 100; i++ {
+
+	}
 
 }
-
 
 func foo() {
 	fmt.Println("I am in foo.")

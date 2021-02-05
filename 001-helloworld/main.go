@@ -18,4 +18,11 @@ control flow:
 // the entrypoint to your project
 func main() {
 	fmt.Printf("Hello world")
+
+	foo()
+}
+
+
+func foo() {
+	fmt.Println("I am in foo.")
 }

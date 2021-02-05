@@ -29,8 +29,14 @@ func main() {
 		}
 	}
 
+	bar()
+
 }
 
 func foo() {
 	fmt.Println("I am in foo.")
+}
+
+func bar() {
+	fmt.Println("and then we excited!")
 }

@@ -17,14 +17,16 @@ control flow:
 
 // the entrypoint to your project
 func main() {
-	fmt.Printf("Hello world")
+	fmt.Println("Hello world")
 
 	foo()
 
 	fmt.Println("something more.")
 
 	for i := 0; i < 100; i++ {
-
+		if i % 2 == 0 {
+			fmt.Println(i)
+		}
 	}
 
 }

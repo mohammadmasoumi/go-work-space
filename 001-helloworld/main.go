@@ -49,7 +49,12 @@ func main() {
 	n, _ := fmt.Println("Hello", 42, true)
 	fmt.Println(n) // number of bytes, it's written
 
-	// golang spec
+	/**
+	golang spec
+
+	 * keywords
+	 * operations and punctuations
+	 */
 }
 
 func foo() {

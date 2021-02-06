@@ -44,34 +44,10 @@ func main() {
 
 	Println formats using the default formats for its operands and writes to standard output. Spaces are always added between
 	operands and a newline is appended. It returns the number of bytes written and any write error encountered.
-	 */
+	*/
 	// use the "_" underscore character to throw away returns
 	n, _ := fmt.Println("Hello", 42, true)
 	fmt.Println(n) // number of bytes, it's written
-
-	/**
-	golang spec
-
-	 - keywords
-	 - operations and punctuations
-	 - variables and types
-
-	 */
-
-	// gopher operator :=
-	// it declare and assign values
-	x := 42
-	fmt.Println("x: ", x)
-	// assign
-	x = 2
-	fmt.Println("x; ", x)
-
-	// statement that is made up of expressions
-	y := x + 100
-	fmt.Println(y)
-
-
-
 }
 
 func foo() {

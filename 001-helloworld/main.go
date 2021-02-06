@@ -52,9 +52,15 @@ func main() {
 	/**
 	golang spec
 
-	 * keywords
-	 * operations and punctuations
+	 - keywords
+	 - operations and punctuations
+	 - variables and types
+
 	 */
+
+	// gopher operator :=
+	// it declare and assign values
+
 }
 
 func foo() {

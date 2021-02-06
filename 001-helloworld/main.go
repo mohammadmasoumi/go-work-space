@@ -22,7 +22,7 @@ func main() {
 	foo()
 
 	// it takes a number of values
-	fmt.Println("something more.", 23 , true)
+	fmt.Println("something more.", 23, true)
 
 	for i := 0; i < 100; i++ {
 		if i%2 == 0 {
@@ -31,6 +31,10 @@ func main() {
 	}
 
 	bar()
+
+	// println return params
+	n, _ := fmt.Println("Hello", 42, true)
+	fmt.Println(n)
 
 }
 

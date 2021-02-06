@@ -40,7 +40,7 @@ func main() {
 	operands and a newline is appended. It returns the number of bytes written and any write error encountered.
 	 */
 	n, _ := fmt.Println("Hello", 42, true)
-	fmt.Println(n)
+	fmt.Println(n) // number of bytes, it's written
 
 }
 

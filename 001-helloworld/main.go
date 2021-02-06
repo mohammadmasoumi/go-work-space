@@ -60,6 +60,10 @@ func main() {
 
 	// gopher operator :=
 	// it declare and assign values
+	x := 42
+	fmt.Println("x: ", x)
+	x = 2
+	fmt.Println("x; ", x)
 
 }
 

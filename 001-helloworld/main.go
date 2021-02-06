@@ -32,7 +32,11 @@ func main() {
 
 	bar()
 
-	// println return params
+	/**
+	godoc.org - packages
+	func Println(a ...interface{}) (n int, err error)
+
+	 */
 	n, _ := fmt.Println("Hello", 42, true)
 	fmt.Println(n)
 

@@ -25,6 +25,11 @@ false for the boolean type, and
 "" (the empty string) for strings.
 */
 
+// DECLARE the variable "initialization"
+// ASSIGN the value 25
+// declare & assign = initialization
+var initialization = 25
+
 func main() {
 
 	// short decoration operator
@@ -53,6 +58,7 @@ func main() {
 
 func foo() {
 	fmt.Println("outsideParams:", outsideParams)
+	fmt.Println("initialization:", initialization)
 	fmt.Println("z:", z)
 }
 

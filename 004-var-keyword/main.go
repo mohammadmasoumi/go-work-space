@@ -10,7 +10,6 @@ func main() {
 	x := 42
 	fmt.Println("x is: ", x)
 
-
-
-
+	var y = 43
+	fmt.Println("y is: ", y)
 }

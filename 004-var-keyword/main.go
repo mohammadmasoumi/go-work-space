@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+// it's like global variable to this file
+// the scope of this variable is the current file
+var outsideParams = "Hello"
+
 func main() {
 
 	// short decoration operator
@@ -12,4 +16,14 @@ func main() {
 
 	var y = 43
 	fmt.Println("y is: ", y)
+
+	/**
+	What is the difference between var and gopher operator?
+		- non-declaration statement outside function body.
+
+	*/
+}
+
+func foo() {
+	fmt.Println(outsideParams)
 }

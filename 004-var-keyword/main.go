@@ -1,1 +1,1 @@
-package _04_var_keyword
+package main
